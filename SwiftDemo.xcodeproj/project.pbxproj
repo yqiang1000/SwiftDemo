@@ -18,6 +18,8 @@
 		47170EEB254BEA2600A080A7 /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47170EEA254BEA2600A080A7 /* TalkViewController.swift */; };
 		47170EEE254BEA2C00A080A7 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47170EED254BEA2C00A080A7 /* MineViewController.swift */; };
 		47170EF1254BEA3200A080A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47170EF0254BEA3200A080A7 /* HomeViewController.swift */; };
+		47170EF8254BF10900A080A7 /* YQPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47170EF7254BF10900A080A7 /* YQPageViewController.swift */; };
+		47170EFC254BF12100A080A7 /* YQHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47170EFB254BF12100A080A7 /* YQHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		47170EEA254BEA2600A080A7 /* TalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
 		47170EED254BEA2C00A080A7 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		47170EF0254BEA3200A080A7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		47170EF7254BF10900A080A7 /* YQPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQPageViewController.swift; sourceTree = "<group>"; };
+		47170EFB254BF12100A080A7 /* YQHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 		47170EF3254BEFAB00A080A7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				47170EF6254BF0C000A080A7 /* SwiftTTPageController */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -128,6 +133,15 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		47170EF6254BF0C000A080A7 /* SwiftTTPageController */ = {
+			isa = PBXGroup;
+			children = (
+				47170EF7254BF10900A080A7 /* YQPageViewController.swift */,
+				47170EFB254BF12100A080A7 /* YQHeaderView.swift */,
+			);
+			path = SwiftTTPageController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,10 +216,12 @@
 			files = (
 				47170EE7254BEA1D00A080A7 /* LifeViewController.swift in Sources */,
 				47170ED9254BE63800A080A7 /* YQTabBarViewController.swift in Sources */,
+				47170EF8254BF10900A080A7 /* YQPageViewController.swift in Sources */,
 				47170EC0254BE47A00A080A7 /* AppDelegate.swift in Sources */,
 				47170EF1254BEA3200A080A7 /* HomeViewController.swift in Sources */,
 				47170EEE254BEA2C00A080A7 /* MineViewController.swift in Sources */,
 				47170EE0254BE67600A080A7 /* YQViewController.swift in Sources */,
+				47170EFC254BF12100A080A7 /* YQHeaderView.swift in Sources */,
 				47170EEB254BEA2600A080A7 /* TalkViewController.swift in Sources */,
 				47170EDC254BE64F00A080A7 /* YQNaviViewController.swift in Sources */,
 			);
